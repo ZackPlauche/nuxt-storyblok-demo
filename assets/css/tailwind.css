@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-screen-2xl
+  }
+
+  .btn {
+    @apply inline-block px-5 py-2 rounded-full bg-gradient-to-br from-primary-400 to-emerald-400 text-white hover:opacity-80 transition-opacity;
+  }
+
+}
